@@ -2,13 +2,13 @@
   "repo": "t-rowe-price",
   "feeds": [
     {
-      "source": "https://www.troweprice.com/personal-investing/resources/insights/",
-      "feed_url": "",
+      "source": "https://apps.apple.com/us/app/t-rowe-price-personal/id534586266",
+      "feed_url": "https://apps.apple.com/us/app/t-rowe-price-personal/id534586266",
       "title": "",
       "saved": 0,
-      "error": "no_feed"
+      "method": "none"
     }
   ],
-  "fetched": "2026-05-17T20:48:52Z",
+  "fetched": "2026-06-01T23:35:02Z",
   "post_count": 0
 }
