@@ -28,6 +28,10 @@ modified: '2026-05-03'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: VulnerabilityDisclosure
+    url: security/t-rowe-price-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/t-rowe-price-domain-security.yml
   - type: Website
     url: https://www.troweprice.com/
   - type: Investor Relations
