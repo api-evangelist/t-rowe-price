@@ -1,0 +1,49 @@
+edges:
+- partner_name: SEC (investment adviser registration)
+  partner: null
+  partner_match: register
+  type: contract
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://adviserinfo.sec.gov/firm/summary/105496
+  category: Investment adviser
+  contract_reference:
+    register: SEC Investment Adviser Public Disclosure (IAPD compilation feed, Form ADV Part 1A)
+    spec_file: null
+    standard: Investment Advisers Act of 1940 (SEC Form ADV)
+    role: sec-registered-investment-adviser
+    registered_name: T. ROWE PRICE ASSOCIATES, INC.
+    business_name: null
+    register_id: CRD 105496
+    sec_file_number: 801-856
+    registration_status: APPROVED
+    registered_since: '1947-03-29'
+    main_office: BALTIMORE, MD, United States
+    matched_domain: troweprice.com
+    matched_by: domain
+    identity_source: registrant's own Form ADV Item 1.I website address (no lookup)
+    custody_of_client_assets: true
+    signal_note: 'participation only: SEC registration is not a certification; firm type, custody and office are
+      context, never counted; regulatory AUM is not recorded (breadth is not credit)'
+    detected_by: sweep-asset-management.py
+    detected: '2026-10-18'
+    other_registrations:
+    - T. ROWE PRICE (CANADA) INC. (CRD 107290)
+    - T. ROWE PRICE ADVISORY SERVICES, INC. (CRD 108958)
+    - T. ROWE PRICE INTERNATIONAL LTD (CRD 126032)
+    - T.ROWE PRICE HONG KONG LIMITED (CRD 155827)
+    - T. ROWE PRICE SINGAPORE PRIVATE LTD (CRD 155831)
+    - T. ROWE PRICE JAPAN, INC. (CRD 290585)
+    - T. ROWE PRICE AUSTRALIA LIMITED (CRD 290594)
+    - T.ROWE PRICE INVESTMENT MANAGEMENT, INC. (CRD 314590)
+  detected_by: sweep-asset-management.py
+  first_seen: '2026-10-18'
+generated: '2026-10-18'
+method: searched
+source:
+- https://reports.adviserinfo.sec.gov/reports/CompilationReports/IA_FIRM_SEC_Feed_10_17_2026.xml.gz
+- https://www.wealthbox.com/wp-json/wp/v2/integrations?per_page=100&page=1
+checked:
+- https://reports.adviserinfo.sec.gov/reports/CompilationReports/IA_FIRM_SEC_Feed_10_17_2026.xml.gz
+- https://www.wealthbox.com/wp-json/wp/v2/integrations?per_page=100&page=1
