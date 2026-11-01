@@ -64,31 +64,81 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-T. Rowe Price is a global asset management firm (NYSE: TROW) offering a broad range of investment management strategies and retirement solutions to individuals, advisors, institutions, and retirement plan sponsors. Founded in 1937, the firm manages mutual funds, ETFs, separate accounts, and retirement plans including 401(k) services.
+T. Rowe Price is a global asset management firm (NYSE: TROW) offering a broad range of investment management strategies and retirement solutions to individuals, advisors, institutions, and retirement plan sponsors. Founded in 1937, the firm manages mutual funds, ETFs, separate accounts, and retirement plans including 401(k) services. T. Rowe Price does not offer a public REST API but provides institutional client portals, data feeds, and integrations with retirement recordkeeping platforms and open banking aggregators such as Plaid and Finicity.
 
-**Website:** [https://www.troweprice.com/](https://www.troweprice.com/)
-**Investor Relations:** [https://investors.troweprice.com/](https://investors.troweprice.com/)
+**Areas:** Asset Management · Investment Management · Retirement · Finance · Mutual Funds · ETFs · 401k · Institutional Investing · Fortune 1000
 
-## Overview
+## T. Rowe Price on APIs.io
 
-T. Rowe Price does not offer a public REST API. Their integration capabilities include:
+Everything profiled for T. Rowe Price is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/t-rowe-price/](https://apis.io/providers/t-rowe-price/)** — or go straight to one of the APIs or properties below.
 
-- **Institutional Client Portal** - digital gateway for institutional clients to access portfolio performance, reports, and key contacts
-- **Open Banking Aggregators** - T. Rowe Price accounts are accessible via Plaid and Finicity for data aggregation
-- **Retirement Plan Data Feeds** - file-based integration for 401(k) recordkeeping platforms (e.g., ProLiant)
-- **Workplace Retirement Integration** - Finicity connectivity for T. Rowe Price Workplace Retirement accounts
+### Published properties
 
-## Products
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- Mutual Funds and ETFs
-- Separately Managed Accounts
-- Retirement Plan Services (401k, IRA)
-- Institutional Asset Management
-- Personal Investing Platform
+#### Security (2)
 
-## Links
+Authentication, trust centre, and vulnerability disclosure.
 
-- **Individual Investors:** [https://www.troweprice.com/personal-investing/](https://www.troweprice.com/personal-investing/)
-- **Institutional:** [https://www.troweprice.com/institutional/](https://www.troweprice.com/institutional/)
-- **Retirement Plan Services:** [https://www.troweprice.com/retirement-plan-services/en/home.html](https://www.troweprice.com/retirement-plan-services/en/home.html)
-- **Client Portal:** [https://www.troweprice.com/institutional/us/en/lp/client-portal.html](https://www.troweprice.com/institutional/us/en/lp/client-portal.html)
+- [T Rowe Price Domain Security](https://apis.io/security/t-rowe-price/t-rowe-price-domain-security/)
+- [T Rowe Price Vulnerability Disclosure](https://apis.io/security/t-rowe-price/t-rowe-price-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.troweprice.com/)
+- [Blog](https://www.troweprice.com/personal-investing/resources/insights/)
+
+## API Evangelist rating
+
+**Kin Score 3.9** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.1** — Securities & Market Data
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/t-rowe-price/](https://apis.io/providers/t-rowe-price/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for T. Rowe Price: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/t-rowe-price/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
